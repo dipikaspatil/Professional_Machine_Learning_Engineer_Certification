@@ -6,10 +6,10 @@
 * **Deep Learning (DL):** Subset of ML that uses multi-layered neural networks between input and output layers to capture complex patterns.
 * **Generative AI (GenAI):** Subset of DL that utilizes foundation models (e.g., Large Language Models) to generate content, interpret data, and perform interactive tasks.
 
-![[Screenshot 2026-08-31 at 11.09.05 AM.png](../images/Screenshot%202026-08-31%20at%2011.09.05%20AM.png)
+![Screenshot 2026-08-31 at 11.09.05 AM.png](../images/1.png)
 
 
-![[Screenshot 2026-08-31 at 11.09.38 AM.png](../images/Screenshot%202026-08-31%20at%2011.09.38%20AM.png)
+![Screenshot 2026-08-31 at 11.09.38 AM.png](../images/2.png)
 ---
 
 ## 2. Supervised vs. Unsupervised Learning
@@ -30,7 +30,7 @@
 * **Regression:** Predicts continuous numerical values (e.g., Forecasting product sales or customer spending).
   * *Example Model:* **Linear Regression**
 
-![[Screenshot 2026-08-31 at 11.12.19 AM.png](../images/Screenshot%202026-08-31%20at%2011.12.19%20AM.png)
+![Screenshot 2026-08-31 at 11.12.19 AM.png](../images/3.png)
 ### Unsupervised Learning
 * **Clustering:** Groups data points with similar characteristics together (e.g., Customer segmentation).
   * *Example Model:* **K-Means Clustering**
@@ -39,7 +39,7 @@
 * **Dimensionality Reduction:** Compresses feature space while retaining key variance (e.g., Feature aggregation for risk assessment).
   * *Example Technique:* **Principal Component Analysis (PCA)**
 
-![[Screenshot 2026-08-31 at 11.13.21 AM.png](../images/Screenshot%202026-08-31%20at%2011.13.21%20AM.png)
+![Screenshot 2026-08-31 at 11.13.21 AM.png](../images/4.png)
 ---
 
 ## 4. Practical Scenarios & Self-Assessment
