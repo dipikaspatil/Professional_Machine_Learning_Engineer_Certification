@@ -63,3 +63,48 @@ These foundational algorithms map directly to GCP model options:
 * **BigQuery ML:** Train tabular models (Linear/Logistic Regression, K-Means) directly via standard SQL queries.
 * **AutoML (Vertex AI):** Automate feature engineering and architecture selection for structured and unstructured datasets.
 * **Custom Training (Vertex AI):** Build custom deep learning models using framework containers (TensorFlow, PyTorch, JAX).
+
+## Additional info 
+
+### Introduction to Supervised Learning
+
+Think of supervised learning like a **teacher helping a student learn using flashcards**. Every flashcard has a question (input data) and the correct answer written on the back (the label). 
+
+The goal is for the student to look at enough flashcards to figure out the underlying pattern so they can answer new, unseen questions correctly. Depending on what kind of answer is written on the back of those flashcards, the student is doing either **Classification** or **Regression**.
+
+---
+
+### 1. Classification: The "Grouping" Game
+
+In classification, the answers on the flashcards are **labels, categories, or names**. Your goal is to put things into separate, distinct buckets. There is no middle ground or "in-between" values.
+
+* **The Core Question:** "Which specific bucket does this belong to?"
+* **Visualizing It:** Imagine a table covered in red apples and green limes. Classification is drawing a straight line down the middle of the table to perfectly separate the apples from the limes. If a new fruit arrives, you look at which side of the line it falls on.
+
+### Simple Everyday Examples:
+* **Email Filters:** Looking at an incoming email and throwing it into the "Spam" bucket or the "Inbox" bucket.
+* **Medical Screening:** Looking at an X-ray and deciding if it is "Healthy" or "Unhealthy".
+* **Animal App:** Snapping a picture of a pet and deciding if it is a "Dog", "Cat", or "Bird".
+
+---
+
+### 2. Regression: The "Guessing the Number" Game
+
+In regression, the answers on the flashcards are **continuous numbers**. These are things you can measure, count, or calculate on a smooth scale. The answers can have decimals, can go up or down infinitely, and the difference between numbers matters mathematically.
+
+* **The Core Question:** "How much?" or "How many?"
+* **Visualizing It:** Imagine a graph showing house sizes and their prices. Regression is drawing a smooth line that passes right through the middle of all those scattered data points. If a new house size is introduced, you follow the line to see exactly what dollar amount it aligns with.
+
+### Simple Everyday Examples:
+* **Weather Forecasting:** Predicting that tomorrow's temperature will be exactly 72.5°F.
+* **Real Estate:** Predicting that a house will sell for $420,000 based on its square footage.
+* **Streaming Apps:** Predicting exactly how many minutes a user will watch a video before clicking away.
+
+---
+
+### Summary Shortcut
+
+If you ever get confused, look at the type of output you want to predict:
+
+* Is the answer a **word, a choice, or a category**? $\rightarrow$ **Classification**
+* Is the answer a **measurable value, a price, or a number**? $\rightarrow$ **Regression**
